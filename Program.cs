@@ -1,9 +1,11 @@
 ﻿using System;
 
+
 class Program
 {
     static void Main()
     {
+        Console.WriteLine("Christoph Du");
         #region Working with single-dimensional arrays
 
         string[] names; // This can reference any size array of strings.
