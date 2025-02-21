@@ -1,0 +1,23 @@
+@model IEnumerable<xduMVPApp.Models.XduTable>
+
+<h2>xduView</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserId</td>
+            <td>@item.UserName</td>
+            <td>@item.UserEmail</td>
+        </tr>
+    }
+    </tbody>
+</table>
